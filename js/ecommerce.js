@@ -18,6 +18,8 @@ for (let border of cardClass) {
 function buyButton() {
     console.log('lightblue');
     document.body.style.backgroundColor = 'lightblue';
+    let exampleInputEmail = document.getElementById('exampleInputEmail1');
+    exampleInputEmail.value = '';
 }
 
 // challenge 6
@@ -49,6 +51,7 @@ let exampleInputEmail = document.getElementById('exampleInputEmail1').addEventLi
     else {
         emailBtn.setAttribute('disabled',true);
     }
+    
 })
 
 
